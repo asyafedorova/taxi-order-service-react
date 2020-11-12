@@ -1,0 +1,17 @@
+.InputItem {
+    margin-bottom: 15px;
+}
+
+.InputItem > label {
+    justify-content: center;
+    margin-bottom: 3px;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.InputItem > input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #002661;
+}

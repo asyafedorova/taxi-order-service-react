@@ -1,0 +1,10 @@
+.Home {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    background: linear-gradient(90deg, #92FFC0 0%, #002661 100%);
+    width: 100%;
+    height: 100%;
+}
