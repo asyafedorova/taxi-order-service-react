@@ -1,14 +1,17 @@
 import React, {Component} from 'react'
-import NavigationItem from "./NavigationItem/NavigationItem";
+import NavigationItem from "./navigationItem/NavigationItem";
 import styles from './Navigation.module.css'
 
-class Navigation extends React.Component {
+class Navigation extends Component {
 
       state = {
             links: [
                 {path: '/', name:'Home'},
-                {path: '/registration', name:'Registration'},
+                {path: '/signup', name:'Registration'},
                 {path: '/login', name:'Login'},
+                {path: '/users', name:'Users'},
+                {path: '/personal', name:'Personal'},
+                {path: '/orders', name:'Orders'}
             ]
         }
 
