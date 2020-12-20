@@ -1,14 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Route, Redirect} from 'react-router-dom'
-import Home from "./frontendComponents/pages/home/Home";
-import Register from "./frontendComponents/pages/signup/Register";
-import Login from "./frontendComponents/pages/signin/Login";
-import Layout from "./frontendComponents/hoc/layout/Layout";
-import Navigation from "./frontendComponents/components/navigation/Navigation";
-import Personal from "./frontendComponents/pages/users/personal/Personal";
-import Users from "./frontendComponents/pages/users/Users";
+import Home from "./components/pages/home/Home";
+import Register from "./components/pages/signup/Register";
+import Login from "./components/pages/signin/Login";
+import Layout from "./components/hoc/layout/Layout";
+import Navigation from "./components/components/navigation/Navigation";
+import Personal from "./components/pages/users/personal/Personal";
+import Users from "./components/pages/users/Users";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Orders from "./frontendComponents/pages/order/Orders";
+import Orders from "./components/pages/order/Orders";
 
 function App() {
   return (
