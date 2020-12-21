@@ -1,7 +1,10 @@
 .Personal {
     position:absolute;
-    display: flex;
+    display: table;
+    align-content: center;
     justify-content: center;
+    justify-self: center;
+    text-align: center;
     padding-top: 100px;
     flex-grow: 1;
     background: linear-gradient(90deg, #92FFC0 0%, #002661 100%);
@@ -12,4 +15,8 @@
 .Personal h1 {
     text-align: center;
     color: aliceblue;
+}
+
+.Personal button {
+    margin: 10px 10px 10px 10px;
 }

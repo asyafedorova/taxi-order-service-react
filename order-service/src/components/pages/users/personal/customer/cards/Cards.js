@@ -1,7 +1,32 @@
-import React from 'react'
+import styles from './Cards.module.css'
+import React, {useState} from "react";
+import Card from "./Card";
+
 
 export default function Cards() {
-    return(<div>
-        <h1>Cards page</h1>
-    </div>);
+    const [cards, setCards] = useState(
+        [{
+            id: 1
+        }, {
+            id: 2
+        }])
+
+    const allCards = cards.map((card, key) => {
+        return (
+            <Card key={key}
+                   id={card.id}
+                   path={`/cards/${card.id}`}/>
+        );
+    })
+
+    return(
+        <div>
+            <div className={styles.Cards}>
+                <h1>All cards</h1>
+                <div>
+                    <li>{allCards}</li>
+                </div>
+            </div>
+        </div>
+    );
 }

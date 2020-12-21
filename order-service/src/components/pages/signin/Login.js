@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Login.module.css'
-import {signIn, signUpAsCustomer} from "../../../api/AuthService";
+import {signIn, signUpAsCustomer} from "../../../services/AuthService";
 
 
 export default function Login() {

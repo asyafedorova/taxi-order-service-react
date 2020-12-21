@@ -27,7 +27,8 @@ export default function Orders() {
                    id={order.id}
                    status={order.status}
                    name={order.customer.name}
-                   phoneNumber={order.customer.phoneNumber}/>
+                   phoneNumber={order.customer.phoneNumber}
+                   path={`/orders/${order.id}`}/>
         );
     })
     return(

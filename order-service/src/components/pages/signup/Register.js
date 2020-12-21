@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Register.module.css'
-import {signUpAsCustomer, signUpAsDriver} from "../../../api/AuthService";
+import {signUpAsCustomer, signUpAsDriver} from "../../../services/AuthService";
 
 export default function Register() {
     let [phoneNumber, setPhoneNumber] = useState({value:''})
@@ -17,7 +17,6 @@ export default function Register() {
         }
         console.log(user)
         let result = signUpAsDriver(user);
-        console.log(result);
     }
 
     const customerSignUp = async event => {

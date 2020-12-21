@@ -6,7 +6,8 @@ export default function NavigationItem (props) {
             <NavLink to={props.path} exact style ={{
                 margin: '5px',
                 color: 'white',
-                'font-weight': 'bold',
-                'text-decoration': 'none'
-            }} >{props.name}</NavLink>);
+                fontWeight: 'bold'
+            }}>
+                {props.name}
+            </NavLink>);
 }

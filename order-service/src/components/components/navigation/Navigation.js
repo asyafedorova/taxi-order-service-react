@@ -9,7 +9,8 @@ export default function Navigation() {
         {path: '/login', name:'Login'},
         {path: '/users', name:'Users'},
         {path: '/personal', name:'Personal'},
-        {path: '/orders', name:'Orders'}
+        {path: '/orders', name:'Orders'},
+        {path: '/cards', name: 'Cards'}
     ]);
 
     const namesOfLinks = links.map((link, key) => {

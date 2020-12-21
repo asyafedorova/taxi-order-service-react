@@ -1,4 +1,4 @@
-.Users {
+.CardPage {
     position:absolute;
     display: table;
     justify-content: center;
@@ -10,6 +10,6 @@
     height: 100%;
 }
 
-.Users h1 {
+.CardPage h1 {
     text-align: center;
 }

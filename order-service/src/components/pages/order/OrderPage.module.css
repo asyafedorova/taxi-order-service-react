@@ -1,4 +1,4 @@
-.Users {
+.OrderPage {
     position:absolute;
     display: table;
     justify-content: center;
@@ -10,6 +10,6 @@
     height: 100%;
 }
 
-.Users h1 {
+.OrderPage h1 {
     text-align: center;
 }

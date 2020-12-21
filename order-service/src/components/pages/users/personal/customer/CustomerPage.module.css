@@ -1,8 +1,10 @@
-.Users {
+.CustomerPage {
     position:absolute;
     display: table;
+    align-content: center;
     justify-content: center;
     justify-self: center;
+    text-align: center;
     padding-top: 100px;
     flex-grow: 1;
     background: linear-gradient(90deg, #92FFC0 0%, #002661 100%);
@@ -10,6 +12,7 @@
     height: 100%;
 }
 
-.Users h1 {
+.CustomerPage h1 {
     text-align: center;
+    color: aliceblue;
 }
